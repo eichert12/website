@@ -1,0 +1,12 @@
+SITE.user = "steve"
+SITE.host = "steveeichert.com"
+SITE.port = 12000
+SITE.remote_dir = "/home/steve/public_html/steveeichert.com"
+
+task :default => :build
+
+desc 'deploy the site to the webserver'
+task :deploy => [:build] do
+  sh("scp -rq -P #{12000} output/* #{SITE.user}@#{SITE.host}:#{SITE.remote_dir}")
+end
+# EOF

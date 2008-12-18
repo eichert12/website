@@ -1,0 +1,23 @@
+---
+title:       
+created_at:  2008-08-02 14:06:40.000000 -06:00
+filter:
+  - erb
+  - textile
+---
+p(title). <%= @page.title %>
+
+Steve Eichert is a technologist, aspiring entrepreneur, writer, blogger, and most importantly husband and father.  He currently spends his days slinging Ruby code (mostly), crafting great software, and looking for ways to grow his company, <a href="http://www.roosterjuicesoftware.com">Rooster Juice</a>.
+
+<h2>Recent Blog Entries</h2>
+<%
+  articles = @pages.find(:all, :in_directory => "blog", :recursive => true,
+      :sort_by => "created_at", :reverse => true, :blog_post => true)
+  articles.delete(@page)
+  paginate(articles, 10) do |page|
+-%>
+<div class="article">
+  <div class="date"><%= page.created_at.strftime('%B %d %Y') %></div>
+  <div class="post"><%= link_to_page(page) %></div>
+</div>
+<% end -%>

@@ -1,0 +1,22 @@
+--- 
+title:      New Site, New Blog, New Beginning...
+created_at: 2008-12-17 21:56:59.089986 -05:00
+blog_post:  true
+filter:
+  - erb
+  - textile
+---
+<h2><%= h(@page.title) %></h2>
+
+Over the last 6 months I've had some interesting changes in my life.  Those changes have me thinking about all sorts of different things, one of which is the fact that I need to get back into writing/blogging.  One of the great benefits of writing for me is that it helps me cement my thinking on topics.
+
+Ever since spending endless hours working on <a href="http://www.amazon.com/exec/obidos/ASIN/1933988169/steveeichert-20">LINQ in Action</a>, I've had trouble writing on a regular basis.  I'm not going to rush back into my blogging and set out some crazy expectations for myself, however, I am going to attempt to blog on a regular basis and start sharing some of my experiences.
+
+To help me with this endeavor I'v decided to spin up a new site at <a href="http://steveeichert.com">steveeichert.com</a>, powered by <a href="http://webby.rubyforge.org/">webby</a>, that will serve as my new "home".
+
+For those of you who know me as a .NET developer, or perhaps the author of a rockin' LINQ book (humor me), you may be surprised by the content of this blog going forward.  I'm spending a very large majority of my time these days working in non .NET technologies, specifically Ruby.  I've really been enjoying myself and I hope to share some stories about how I've been making out with the transition. I'll also continue to write about the technologies that I'm using on a daily basis, as well as those that have piqued my interest.  
+
+One of my "big changes" that I alluded to above is that I started a company (Rooster Juice).  The process of getting the company going has taught me a ton and made for some interesting experiences.  Hopefully, I'll get some posts up about what Rooster Juice is all about, what I've been spending my time on, and what the future may hold.  I have a number of topics queued up such as: how to survive as a lone developer, how to transition from pairing every day to never pairing except with yourself,  how to introduce agile software development to non technical partners, and more.
+
+Cheers,
+Steve

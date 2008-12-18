@@ -1,0 +1,88 @@
+---
+extension: html
+filter:    erb
+---
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <title><%= @page.title || "Steve Eichert's Homepage"%></title>
+   <meta name="author" content="<%= @page.author %>" />
+
+   <!--- Blueprint CSS Framework -->
+   <link rel="stylesheet" href="/css/blueprint/screen.css" type="text/css" media="screen, projection" />
+   <link rel="stylesheet" href="/css/blueprint/print.css" type="text/css" media="print" />
+
+   <!-- CodeRay syntax highlighting CSS -->
+   <link rel="stylesheet" href="/css/coderay.css" type="text/css" />
+
+   <!-- Homepage CSS -->
+   <link rel="stylesheet" href="/css/site.css" type="text/css" media="screen, projection" />
+</head>
+<body>
+
+<div class="container">
+
+   <div class="column span-20 prepend-2 append-2 first last" id="header">
+     <p class="title"><a href="/">Steve Eichert</a></p>
+     <p class="tagline">Technologist, Rubyist, Blogger, Author, Aspiring Entrepreneur, Husband, and Father</p>
+     <hr>
+   </div>
+
+   <div class="column span-15 prepend-2 first">
+      <%= @content %>
+      
+      <div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/steveeichert/embed.js"></script><noscript><a href="http://steveeichert.disqus.com/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+   </div>
+
+   <div class="column span-5 append-2 last">
+      <h4>Me</h4>
+      <div>
+      <img src="http://s3.amazonaws.com/twitter_production/profile_images/58582992/Photo_1_bigger.jpg"/><br/>
+      Steve Eichert
+      <a href="steve.eichert@gmail.com">steve.eichert@gmail.com</a>
+      Principal @ <a href="http://www.roosterjuicesoftware.com">Rooster Juice</a>
+      <br/>
+      <br/>      
+      <a href="http://www.roosterjuicesoftware.com"><img src="/images/rj.png"/></a>
+      </div>
+      
+      <h4>Connect</h4>
+      <ul class="social-links">
+        <li><a href="http://twitter.com/steveeichert"><img src="/images/twitter.png"/> Twitter</a></li>
+        <li><a href="http://friendfeed.com/steveeichert"><img src="/images/ff.png"/> FriendFeed</a></li>      
+        <li><a href="http://www.facebook.com/profile.php?id=568264127&ref=profile"/><img src="/images/facebook.png"> Facebook</a></li>
+        <li><a href="http://www.linkedin.com/in/eichert"><img src="/images/linkedin.png"/> LinkedIn</a></li>              
+        <li><a href="http://delicious.com/eichert12"><img src="/images/delicious.png"/> Delicious</a></li>
+        <li><a href="http://github.com/eichert12"><img src="/images/git.png"/> Github</a></li>              
+      </ul>
+      
+      <div id="twitter_div">
+      <h4>Twitter Updates</h4>
+      <ul id="twitter_update_list"></ul>
+      </div>
+      <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
+      <script type="text/javascript" src="http://twitter.com/statuses/user_timeline/steveeichert.json?callback=twitterCallback2&amp;count=5"></script>
+      
+   </div>
+
+   <div class="column span-20 prepend-2 append-2 first last" id="footer">
+     <hr />
+     <p>This website was created with <a href="http://webby.rubyforge.org">Webby</a></p>
+   </div>
+
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-6720329-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

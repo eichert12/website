@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+  <title>Steve Eichert</title>
+  <subtitle>A really swell blog built with Webby</subtitle>
+  <link href="http://steveeichert.com/blog/" rel="self" />
+  <updated>2008-12-17T23:28:34-05:00</updated>
+  <author>
+    <name>Steve Eichert</name>
+    <email>steve.eichert@gmail.com</email>
+  </author>
+  <id>http://steveeichert.com/blog//</id>
+  
+  <entry>
+    <title>New Site, New Blog, New Beginning...</title>
+    <link href="/blog/2008/12/17/new-site-new-blog-new-beginning-dot.html" />
+    <id>tag:steveeichert.com/blog/,2008-12-17:1229569019</id>
+    <updated>2008-12-17T21:56:59-05:00</updated>
+    <content type="html">&lt;h2&gt;New Site, New Blog, New Beginning&amp;#8230;&lt;/h2&gt;
+&lt;p&gt;Over the last 6 months I&amp;#8217;ve had some interesting changes in my life.  Those changes have me thinking about all sorts of different things, one of which is the fact that I need to get back into writing/blogging.  One of the great benefits of writing for me is that it helps me cement my thinking on topics.&lt;/p&gt;
+&lt;p&gt;Ever since spending endless hours working on &lt;a href=&quot;http://www.amazon.com/exec/obidos/ASIN/1933988169/steveeichert-20&quot;&gt;LINQ in Action&lt;/a&gt;, I&amp;#8217;ve had trouble writing on a regular basis.  I&amp;#8217;m not going to rush back into my blogging and set out some crazy expectations for myself, however, I am going to attempt to blog on a regular basis and start sharing some of my experiences.&lt;/p&gt;
+&lt;p&gt;To help me with this endeavor I&amp;#8217;v decided to spin up a new site at &lt;a href=&quot;http://steveeichert.com&quot;&gt;steveeichert.com&lt;/a&gt;, powered by &lt;a href=&quot;http://webby.rubyforge.org/&quot;&gt;webby&lt;/a&gt;, that will serve as my new &amp;#8220;home&amp;#8221;.&lt;/p&gt;
+&lt;p&gt;For those of you who know me as a .NET developer, or perhaps the author of a rockin&amp;#8217; LINQ book (humor me), you may be surprised by the content of this blog going forward.  I&amp;#8217;m spending a very large majority of my time these days working in non .NET technologies, specifically Ruby.  I&amp;#8217;ve really been enjoying myself and I hope to share some stories about how I&amp;#8217;ve been making out with the transition. I&amp;#8217;ll also continue to write about the technologies that I&amp;#8217;m using on a daily basis, as well as those that have piqued my interest.&lt;/p&gt;
+&lt;p&gt;One of my &amp;#8220;big changes&amp;#8221; that I alluded to above is that I started a company (Rooster Juice).  The process of getting the company going has taught me a ton and made for some interesting experiences.  Hopefully, I&amp;#8217;ll get some posts up about what Rooster Juice is all about, what I&amp;#8217;ve been spending my time on, and what the future may hold.  I have a number of topics queued up such as: how to survive as a lone developer, how to transition from pairing every day to never pairing except with yourself,  how to introduce agile software development to non technical partners, and more.&lt;/p&gt;
+&lt;p&gt;Cheers,&lt;br /&gt;
+Steve&lt;/p&gt;</content>
+  </entry>
+  
+</feed>
